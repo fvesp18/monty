@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * drive - driver code for monty interpreter
+ * main - driver code for monty interpreter
  * @argc: argument count
  * @argv: array of args
  * Return: int
