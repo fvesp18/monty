@@ -4,7 +4,7 @@
  * @stack: stack
  * @line: line number
  */
-void s_nop(stack_t **stack, unsigned int line)
+void op_nop(stack_t **stack, unsigned int line)
 {
 	(void) stack;
 	(void) line;
