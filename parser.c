@@ -18,7 +18,7 @@ char **parser(char *line)
 	if (tok == NULL)
 		free(buff);
 		return (NULL);
-	
+
 	while (tok != NULL && count < 2)
 	{
 		buff[count] = tok;
