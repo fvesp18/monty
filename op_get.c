@@ -1,23 +1,21 @@
 #include "monty.h"
-
 /**
  * get_op_func - calls operator function
  * @s: type of operators
  * Return: NULL, on success
  */
-
 void (*get_op_func(char **toks, unsigned int line))(stack_t **, unsigned int)
 {
 	unsigned int count;
 	
 	instruction_t ops[] = {
 	{"push", op_push},
-	{"pall", op_pall},
+/*	{"pall", op_pall},
 	{"pint", op_pint},
 	{"pop", op_pop},
 	{"swap", op_swap},
 	{"add", op_add},
-	{"nop", op_nop},
+	{"nop", op_nop},*/
 	{NULL, NULL}
 	};
 
@@ -26,7 +24,7 @@ void (*get_op_func(char **toks, unsigned int line))(stack_t **, unsigned int)
 	{
 		if ((strcmp(ops[count].opcode, toks[0]) == 0))
 		{
-			if ((strcmp(ops[count].opcode, "push") == 0) && toks[0][1] = NULL)
+			if ((strcmp(ops[count].opcode, "push") == 0) && toks[1] == NULL)
 			{
 				free(toks);
 				fprintf(stderr, "L%d: usage: push integer\n", line);
