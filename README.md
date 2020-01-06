@@ -29,18 +29,21 @@
 
 <table style="width:100%">
   <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Age</th>
+    <th> Name of File </th>
+    <th> Description of File </th>
   </tr>
   <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
+    <td> driver.c </td>
+    <td> free_lists.c </td>
+    <td> parser.c </td>
+    <td> reader.c </td>
+    <td> monty.h </td>
   </tr>
   <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
+    <td> Driver file that runs our main program </td>
+    <td> Function that frees our doubly linked list </td>
+    <td> Parser file that tokenizes each line of a monty file </td>
+    <td> Reads the monty file and what gives the Parser the ability tokenize the line </td>
+    <td> Header file that holds our prototypes along with other libraries </td>
   </tr>
 </table>
