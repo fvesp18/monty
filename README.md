@@ -53,8 +53,8 @@
 
 <h2> Monty bytecode </h2>
 <strong> push 1 </strong>
-<strong> pint </strong>
-<strong> push 2 </strong>
-<strong> pint </strong>
-<strong> ush 3 </strong>
-<strong> pint </strong>
+<br> <strong> pint </strong>
+<br> <strong> push 2 </strong>
+<br> <strong> pint </strong>
+<br> <strong> push 3 </strong>
+<br> <strong> pint </strong>
