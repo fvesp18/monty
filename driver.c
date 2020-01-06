@@ -7,13 +7,14 @@
  */
 int main(int argc, char **argv)
 {
-	char *file = argv[1];
+	char *file;
 
 	if (argc != 2)
 	{
 		fprintf(stderr, "USAGE: monty file\n");
 		exit(EXIT_FAILURE);
 	}
+	file = argv[1];
 	reader(file);
 	return (EXIT_SUCCESS);
 }
