@@ -27,7 +27,7 @@
 
 
 
-<table style="width:100%">
+<table style="width:200%">
   <tr>
     <th> Name of File </th>
     <th> Description of File </th>
