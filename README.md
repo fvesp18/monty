@@ -1,9 +1,9 @@
 <h1> Monty Language Interpreter </h1>
 
-<h2> Monty 0.98 </h2>
+<h3> Monty 0.98 </h3>
 <p> A scripting language that is compiled into bytecodes. It relies on a stack with instructions to manipulate it. This program is an interpreter for Monty bytecode files. <p>
 
-<h2> Usage </h2>
+<h3> Usage </h3>
 
 <h2> Monty Installation </h2>
 <p> To install interpreter you must clone the reop from github using the following method: </p>
@@ -13,7 +13,7 @@
 <p> All files should be compiled with <p> <strong> gcc -Wall -Werror -Wextra -pedantic *.c -o monty </strong>
 <p> To run the program, enter: </p> <strong> > ./monty [file] </strong>
 
-<h2> Operation Functions </h2>
+<h3> Operation Functions </h3>
 <p> Here is a list of Operations that the Monty Interpreter will only understand </p>
 <ul style="list-style-type:circle;">
   <li> <strong> push [integer]: <strong> pushes an integer on to the stack </li>
@@ -47,3 +47,14 @@
     <td> Header file that holds our prototypes along with other libraries </td>
   </tr>
 </table>
+
+
+<h3> Example </h3>
+
+<h2> Monty bytecode </h2>
+<strong> push 1 </strong>
+<strong> pint </strong>
+<strong> push 2 </strong>
+<strong> pint </strong>
+<strong> ush 3 </strong>
+<strong> pint </strong>
