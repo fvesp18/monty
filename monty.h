@@ -38,6 +38,7 @@ typedef struct instruction_s
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 void op_pall(stack_t **stack, unsigned int line);
+void op_pint(stack_t **stack, unsigned int line);
 void free_list(stack_t **stack);
 char **parser(char *line);
 void reader(char *file);
