@@ -8,8 +8,7 @@
 void op_push(stack_t **stack, unsigned int line)
 {
 	stack_t *new;
-
-	(void) line;	
+	(void) line;
 
 	new = malloc(sizeof(stack_t));
 		if (new == NULL)
