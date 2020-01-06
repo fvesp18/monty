@@ -11,16 +11,17 @@
 <p> You then will be able to run a Monty file by compiling with specific flags </p>
 
 <p> All files should be compiled with <p> <strong> gcc -Wall -Werror -Wextra -pedantic *.c -o monty </strong>
-<p> To run the program, enter: </p> <strong> > ./monty <file> </strong>
+<p> To run the program, enter: </p> <strong> > ./monty [file] </strong>
 
 <h2> Operation Functions </h2>
 <p> Here is a list of Operations that the Monty Interpreter will only understand </p>
-<ul style="list-style-type:disc;">
-  <li> push <integer> </li>
-  <li> pall </li>
-  <li> pint </li>
-  <li> pop </li>
-  <li> swap </li>
-  <li> nop </li>
+<ul style="list-style-type:circle;">
+  <li> push [integer]: pushes an integer on to the stack </li>
+  <li> pall: prints all values on the stack </li>
+  <li> pint: prints the value at the top of the stack </li>
+  <li> pop: removes the top element of the stack </li>
+  <li> swap: swaps the top two elements of the stack </li>
+  <li> nop: do nothing </li>
 
 </ul>
+
