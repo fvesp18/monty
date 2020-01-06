@@ -52,9 +52,14 @@
 <h3> Example </h3>
 
 <h2> Monty bytecode </h2>
-<strong> push 1 </strong>
-<br> <strong> pint </strong>
-<br> <strong> push 2 </strong>
-<br> <strong> pint </strong>
-<br> <strong> push 3 </strong>
-<br> <strong> pint </strong>
+<strong> $ push 1 </strong>
+<br> <strong> $ pint </strong>
+<br> <strong> $ push 2 </strong>
+<br> <strong> $ pint </strong>
+<br> <strong> $ push 3 </strong>
+<br> <strong> $ pint </strong>
+
+<h2> bytecode OUTPUT </h2>
+<strong> $ 1 </strong>
+<br> <strong> $ 2 </strong>
+<br> <strong> $ 3 </strong>
