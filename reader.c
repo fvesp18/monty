@@ -16,10 +16,7 @@ void reader(char *file)
 	{
 		line += 1;
 		toks = parser(tok);
-		if (toks == NULL)
-			continue;
-		else
-			get_op_func(toks, line)(&stack, line);
+		get_op_func(toks, line)(&stack, line);
 	}
 	fclose(fn);
 	free(tok);

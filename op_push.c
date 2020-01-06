@@ -9,13 +9,14 @@ void op_push(stack_t **stack, unsigned int line)
 {
 	stack_t *new;
 
-	(void) line;
+	(void) line;	
 
 	new = malloc(sizeof(stack_t));
 		if (new == NULL)
+		{
 			fprintf(stderr, "Error: malloc failed\n");
 			exit(EXIT_FAILURE);
-
+		}
 	new->n = num;
 	if (*stack == NULL)
 	{

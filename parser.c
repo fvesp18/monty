@@ -12,13 +12,16 @@ char **parser(char *line)
 
 	buff = malloc(sizeof(char *) * 3);
 		if (buff == NULL)
+		{
 			fprintf(stderr, "Error: couldn't malloc\n");
 			exit(EXIT_FAILURE);
+		}
 
 	if (tok == NULL)
+	{
 		free(buff);
 		return (NULL);
-
+	}
 	while (tok != NULL && count < 2)
 	{
 		buff[count] = tok;
