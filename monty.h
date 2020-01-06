@@ -49,6 +49,5 @@ void op_pall(stack_t **stack, unsigned int line);
 void op_pint(stack_t **stack, unsigned int line);
 void op_swap(stack_t **stack, unsigned int line);
 void op_nop(stack_t **stack, unsigned int line);
-void add(stack_t **stack, unsigned int line_number);
-
+void op_add(stack_t **stack, unsigned int line_number);
 #endif
