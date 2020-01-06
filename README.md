@@ -7,11 +7,11 @@
 
 <h2> Monty Installation </h2>
 <p> To install interpreter you must clone the reop from github using the following method: </p>
-`git clone [repository link]`
+<strong> git clone [repository link] </strong>
 <p> You then will be able to run a Monty file by compiling with specific flags </p>
 
-<p> All files should be compiled with <p> `gcc -Wall -Werror -Wextra -pedantic *.c -o monty`
-<p> To run the program, enter: </p> `./monty <file>`
+<p> All files should be compiled with <p> <strong> gcc -Wall -Werror -Wextra -pedantic *.c -o monty </strong>
+<p> To run the program, enter: </p> <strong> > ./monty <file> </strong>
 
 <h2> Operation Functions </h2>
 <p> Here is a list of Operations that the Monty Interpreter will only understand </p>
