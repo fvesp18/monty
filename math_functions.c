@@ -1,14 +1,15 @@
 #include "monty.h"
 
 /**
- * add - adds two elements of the stack
+ * op_add - adds two elements of the stack
  * @stack: pointer to linked list in our stack structure
  * @line_number: line number
  * Return: sum of two elements
  */
-void add(stack_t **stack, unsigned int line_number)
+void op_add(stack_t **stack, unsigned int line_number)
 {
 	int element1, element2, sum;
+	stack_t *new;
 
 	if (*stack == NULL || (*stack)->next == NULL)
 	{
@@ -16,9 +17,12 @@ void add(stack_t **stack, unsigned int line_number)
 		exit(EXIT_FAILURE);
 	}
 
-	element1 = (*stack)->n;
-	element2 = (*stack)->next->n;
-	sum = a + b;
-	pop(stack, line_number);
-	(*stack)->n = sum;
+	new = *stack;
+	element1 = new->n;
+	element2 = new->next->n;
+	sum = element2 + element1;
+	new->next->n = sum;
+	*stack = new->next;
+	(*stack)->prev = NULL;
+	free(new);
 }
