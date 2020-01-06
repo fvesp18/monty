@@ -49,3 +49,28 @@ void op_sub(stack_t **stack, unsigned int line_number)
 	(*stack)->prev = NULL;
 	free(new);
 }
+/**
+ * op_mul - subtracts top two elements
+ * @stack: stack
+ * @line: line
+ */
+void op_mul(stack_t **stack, unsigned int line_number)
+{
+	int element1, element2, prod;
+	stack_t *new;
+
+	if (*stack == NULL || (*stack)->next == NULL)
+	{
+		fprintf(stderr, "L%d: can't sub, stack too short\n", line_number);
+		exit(EXIT_FAILURE);
+	}
+
+	new = *stack;
+	element1 = new->n;
+	element2 = new->next->n;
+	prod = element2 * element1;
+	new->next->n = prod;
+	*stack = new->next;
+	(*stack)->prev = NULL;
+	free(new);
+}

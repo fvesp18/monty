@@ -18,6 +18,7 @@ void (*get_op_func(char **toks, unsigned int line))(stack_t **, unsigned int)
 	{"add", op_add},
 	{"nop", op_nop},
 	{"sub", op_sub},
+	{"mul", op_mul},
 	{NULL, NULL}
 	};
 
