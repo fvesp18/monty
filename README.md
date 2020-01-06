@@ -16,12 +16,31 @@
 <h2> Operation Functions </h2>
 <p> Here is a list of Operations that the Monty Interpreter will only understand </p>
 <ul style="list-style-type:circle;">
-  <li> push [integer]: pushes an integer on to the stack </li>
-  <li> pall: prints all values on the stack </li>
-  <li> pint: prints the value at the top of the stack </li>
-  <li> pop: removes the top element of the stack </li>
-  <li> swap: swaps the top two elements of the stack </li>
-  <li> nop: do nothing </li>
+  <li> <strong> push [integer]: <strong> pushes an integer on to the stack </li>
+  <li> <strong> pall: <strong> prints all values on the stack </li>
+  <li> <strong> pint: <strong> prints the value at the top of the stack </li>
+  <li> <strong> pop: <strong> emoves the top element of the stack </li>
+  <li> <strong> swap: <srtong> swaps the top two elements of the stack </li>
+  <li> <strong> nop: <strong> do nothing </li>
 
 </ul>
 
+
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
