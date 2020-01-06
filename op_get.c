@@ -20,6 +20,11 @@ void (*get_op_func(char **toks, unsigned int line))(stack_t **, unsigned int)
 	{NULL, NULL}
 	};
 
+	if (toks[0][0] == "#")
+	{
+		free(toks);
+		return(op_nop);
+	}
 	count = 0;
 	while (ops[count].opcode != NULL)
 	{
