@@ -63,3 +63,7 @@
 <strong> $ 1 </strong>
 <br> <strong> $ 2 </strong>
 <br> <strong> $ 3 </strong>
+
+<h3> AUTHORS </h3>
+<p> <storng> Flavio Vílchez-Espinoza </strong> </p>
+<p> <strong> Diego Tardio </strong> </p> 
